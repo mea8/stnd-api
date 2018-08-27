@@ -32,10 +32,4 @@ public class ObjectConverter {
         postDTO.setUserId(post.getUser().getId());
         return postDTO;
     }
-
-    public static PostDTO mapPostDTO(Post post) {
-        PostDTO postDTO = new PostDTO();
-
-        return postDTO;
-    }
 }
