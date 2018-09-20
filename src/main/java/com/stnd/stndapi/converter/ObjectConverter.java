@@ -10,6 +10,8 @@ import java.util.List;
 
 public class ObjectConverter {
 
+    private String a = "a";
+
     public static UserDTO mapUserToUsetDTO(User user) {
         UserDTO userDTO = new UserDTO();
         userDTO.setId(user.getId());
